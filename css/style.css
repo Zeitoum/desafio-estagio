@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(70, 70, 70);
+}
+
+/* Estilizando a faixa de cima com o logo da Obuc*/
+
+#top {
+  background-color: rgb(0, 50, 78);
+  width: 80%;
+  height: 7.3vh;
+  float: right;
+  /* position: fixed; */
+  margin-left: 20%;
+}
+
+#top img {
+  width: 6vh;
+  float: right;
+  padding-top: 0.5%;
+}
+
+/*Estilizando Coluna da esquerda*/
+
+#leftColumn {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(0deg, rgb(70, 135, 231) 0%, rgb(2, 60, 94) 90%);
+  width: 20%;
+  height: 100vh;
+  float: left;
+  position: fixed;
+}
+
+#leftColumn li a {
+  font-size: 20px;
+  /* color: white; */
+  text-decoration: none;
+  display: block;
+  font-family: "Nuosu SIL", serif;
+  font-weight: normal;
+}
+
+.testeObuc {
+  color: rgb(255, 255, 255);
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-style: italic;
+  font-size: 24px;
+  font-family: "Nuosu SIL", serif;
+  font-weight: normal;
+}
+
+.cadastro-item {
+  list-style: none;
+}
+
+.nav-link {
+  padding-left: 5%;
+  color: white;
+  margin-top: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: rgb(0, 50, 78);
+  margin-bottom: 2%;
+  transition: all ease 0.5s;
+}
+
+.nav-link:hover {
+  background: linear-gradient(270deg, rgb(50, 99, 172) 0%, rgb(2, 60, 94) 90%);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+/*Estilizando a parte do conteúdo da página*/
+
+#main {
+  background-color: rgb(221, 221, 221);
+  width: 80%;
+  float: right;
+  height: 92.7vh;
+}
+
+#main-content {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  height: 83.3vh;
+  margin: 4.7vh auto;
+  border-radius: 5px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+#main-content h3 {
+  font-weight: normal;
+}
+
+#main-content .card {
+  padding: 30px 50px;
+}
+
+#main-content input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 1px 2px #ccc;
+  outline: 0;
+  width: 40%;
+}
+
+button {
+  border: 0px;
+  padding: 0px;
+  padding-top: 2px;
+  margin-left: 0.5%;
+  position: absolute;
+  outline: 0;
+  transition: all ease 0.3s;
+  display: inline;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+/*Estilizando a tabela*/
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+table td {
+  text-align: left;
+  padding: 1px 10px;
+  box-shadow: 1px 2px #ccc;
+  /* width: 20%; */
+}
+
+.table-content {
+  margin-top: 1%;
+}
+
+.center-imgs {
+  text-align: center;
+  width: 8.2%;
+  cursor: pointer;
+}

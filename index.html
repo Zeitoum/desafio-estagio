@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste OBUC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/logoObuc.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="leftColumn">
+        <h1 class="testeObuc">
+            Teste Obuc
+        </h1>
+        <hr>
+        <li class="cadastro-item">
+            <a class="nav-link" href="index.html">Cadastro de Metas</a>
+        </li>
+        <li class="cadastro-item">
+            <a class="nav-link" href="error.html">Cadastro de áreas</a>
+        </li>
+        <li class="cadastro-item">
+            <a class="nav-link" href="error.html">Cadastro de Origens</a>
+        </li>
+        <li class="cadastro-item">
+            <a class="nav-link" href="error.html">Cadastro de Habilidades</a>
+        </li>
+        </ul>
+    </div>
+    <div id="top">
+        <a class="logoObuc" href="https://www.obuc.com.br/"><img src="images/logoObuc.png" alt="Icone da Empresa Obuc">
+        </a>
+    </div>
+    <div id="main">
+        <div id="main-content">
+            <div class="card">
+                <h3>Meta:</h3>
+                <input type="text" id="meta">
+                <button id="add" onclick="meta.salvar()"><img src="images/more.png"></button>
+                <div class="table-content">
+                    <table border="1">
+                        <tbody id="tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
